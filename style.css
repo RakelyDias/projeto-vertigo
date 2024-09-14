@@ -8,6 +8,15 @@
 
     /* 1rem = 16px */
     /* 40px = 2.5rem */
+
+:root {
+    --gray-800: #1E293B;
+    --gray-600: #475569;
+}
+
+    /* número = 20 */
+    /* print (número)*/
+
 header {
     background-image: url(./imagens/img.png);
     background-size: cover;
@@ -16,4 +25,21 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 3.7rem;
+}
+
+main {
+    padding-inline: 1.5rem;
+
+}
+
+.descricao h1 {
+    color: var(--gray-800);
+    margin-bottom: 1rem;
+    font-size: 1.5625rem;
+}
+
+p {
+
 }
